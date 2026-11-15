@@ -1,0 +1,435 @@
+{
+  "name": "NexaCMS Official Packages",
+  "packages": [
+    {
+      "type": "plugin",
+      "slug": "calc-age",
+      "name": "Calc Age",
+      "version": "1.1.0",
+      "author": "NexaCMS",
+      "description": "[calc-age day=\"15\" month=\"06\" year=\"1995\"] shortcode that calculates age.",
+      "download_url": "https://raw.githubusercontent.com/nexaCMS/nexacms-packages/main/packages/calc-age.zip",
+      "sha256": "2a601a348b14a13b9cd8851dfa24e8a4a982a34296d141c8a391a7bce383e598"
+    },
+    {
+      "type": "plugin",
+      "slug": "echo-echo",
+      "name": "Echo Echo",
+      "version": "1.0.0",
+      "author": "NexaCMS",
+      "description": "Classic demo hook plugin that echoes sample lines into content.",
+      "download_url": "https://raw.githubusercontent.com/nexaCMS/nexacms-packages/main/packages/echo-echo.zip",
+      "sha256": "834a93d1a0d3de22da8a09ed54f3db978e7d025617513b172c44665670424bc5"
+    },
+    {
+      "type": "plugin",
+      "slug": "microADRotator",
+      "name": "Nexa Ad Server - Rotator & Zones",
+      "version": "2.1.0",
+      "author": "NexaCMS",
+      "description": "Full ad server: zones, weighted rotation, schedules, impression/click tracking. [ad zone=\"header\"] or legacy [microAd].",
+      "download_url": "https://raw.githubusercontent.com/nexaCMS/nexacms-packages/main/packages/microADRotator.zip",
+      "sha256": "fac7a1a22e3e33fd57733bee6b6fec743263289bce87f76c68896962945ec4c8"
+    },
+    {
+      "type": "plugin",
+      "slug": "nexa-ai-agent",
+      "name": "Nexa AI Agent - AI API Users",
+      "version": "1.0.0",
+      "author": "NexaCMS",
+      "description": "Create scoped AI API users (keys) with per-key rate limits so an AI can manage the site via JSON API. Master switch: deactivate this plugin.",
+      "download_url": "https://raw.githubusercontent.com/nexaCMS/nexacms-packages/main/packages/nexa-ai-agent.zip",
+      "sha256": "8d967c9074d1b4fc93e11282753f6c5a7eba2690d7234e0bdcb3520fc642ba27"
+    },
+    {
+      "type": "plugin",
+      "slug": "nexa-analytics",
+      "name": "Nexa Analytics \u2014 Visitor Tracker & Popular Posts",
+      "version": "1.2.0",
+      "author": "NexaCMS",
+      "description": "Pageview/visitor tracking that distinguishes guests from logged-in users and estimates time on site per visit session. [site_hits] and [popular_posts] shortcodes + Admin dashboard.",
+      "download_url": "https://raw.githubusercontent.com/nexaCMS/nexacms-packages/main/packages/nexa-analytics.zip",
+      "sha256": "f2c7fca0079c73e7b42314382e5306125ca30858eebacd8e1ec66f8dd00d27d3"
+    },
+    {
+      "type": "plugin",
+      "slug": "nexa-antispam",
+      "name": "Nexa Anti-Spam - Spam Shield",
+      "version": "1.0.0",
+      "author": "NexaCMS",
+      "description": "Akismet-style shield: scores comment/contact/form posts in pre (links, banned words, rate) and logs blocked spam.",
+      "download_url": "https://raw.githubusercontent.com/nexaCMS/nexacms-packages/main/packages/nexa-antispam.zip",
+      "sha256": "a0b2183e40913149dcd759abb01e394004db90b940c226a81c1c1325a868ae8c"
+    },
+    {
+      "type": "plugin",
+      "slug": "nexa-backup",
+      "name": "Nexa Backup - Backup & Migrate",
+      "version": "1.0.0",
+      "author": "NexaCMS",
+      "description": "UpdraftPlus/All-in-One-Migration style: one-click zip backup of database + content into content/backup.",
+      "download_url": "https://raw.githubusercontent.com/nexaCMS/nexacms-packages/main/packages/nexa-backup.zip",
+      "sha256": "47f0b9261e29dd00927dd4e380a5849e39f24af0ea72d12c74cb0a267db2cdcd"
+    },
+    {
+      "type": "plugin",
+      "slug": "nexa-builder",
+      "name": "Nexa Builder - Block Page Builder",
+      "version": "1.1.0",
+      "author": "NexaCMS",
+      "description": "Elementor-style building blocks: [builder page=\"home\"] renders heading/text/image/button blocks you arrange in admin.",
+      "download_url": "https://raw.githubusercontent.com/nexaCMS/nexacms-packages/main/packages/nexa-builder.zip",
+      "sha256": "c8b649f1476c7403a4337f3979efb6c7df0f9cbef7697ef4eec4d70fa249ae8a"
+    },
+    {
+      "type": "plugin",
+      "slug": "nexa-cache",
+      "name": "Nexa Cache \u2014 Speed Cache",
+      "version": "1.0.1",
+      "author": "NexaCMS",
+      "description": "Full-page TTL cache in content/cache/ with auto-invalidation on save and Admin purge/stats.",
+      "download_url": "https://raw.githubusercontent.com/nexaCMS/nexacms-packages/main/packages/nexa-cache.zip",
+      "sha256": "8df15f7b32fe4ce431a1b3bec442cc83c92fbeee8ed2ed8f9945c81c4f01c889"
+    },
+    {
+      "type": "plugin",
+      "slug": "nexa-comments",
+      "name": "Nexa Comments \u2014 Threaded Comments & Moderation",
+      "version": "1.1.0",
+      "author": "NexaCMS",
+      "description": "Clean threaded post comments with honeypot/time-trap anti-spam and Admin moderation.",
+      "download_url": "https://raw.githubusercontent.com/nexaCMS/nexacms-packages/main/packages/nexa-comments.zip",
+      "sha256": "f5b438e0adb6989895c114a4f32b634019bd26a468f9d5b62fa736676a31e1be"
+    },
+    {
+      "type": "plugin",
+      "slug": "nexa-contact",
+      "name": "Nexa Contact \u2014 Contact Form & Inbox",
+      "version": "1.1.0",
+      "author": "NexaCMS",
+      "description": "Frontend [contact_form] with honeypot anti-spam, stored via SQL query() into the Admin Contact Inbox.",
+      "download_url": "https://raw.githubusercontent.com/nexaCMS/nexacms-packages/main/packages/nexa-contact.zip",
+      "sha256": "a03514a0e7a62ae44e10ce61ab7dd19d666780fc34f9ad3b4d1d5b7d646c4f51"
+    },
+    {
+      "type": "plugin",
+      "slug": "nexa-downloads",
+      "name": "Nexa Downloads \u2014 Protected Downloads, Email Gates, Timers, Purchases & Approvals",
+      "version": "1.0.0",
+      "author": "NexaCMS",
+      "description": "Protected tracked downloads: public, logged-in, customer, email-gated and admin-approved access; free-download countdown timers; expiring download limits; purchase verification through Nexa Shop or purchase claims; entitlements, requests, logs and shortcodes.",
+      "download_url": "https://raw.githubusercontent.com/nexaCMS/nexacms-packages/main/packages/nexa-downloads.zip",
+      "sha256": "7900d9310750a3d2b2f4077d9211f9c2e4bb1dfcf53f205b39114d8fb94a2454"
+    },
+    {
+      "type": "plugin",
+      "slug": "nexa-duplicate",
+      "name": "Nexa Duplicate - Clone Posts & Pages",
+      "version": "1.0.0",
+      "author": "NexaCMS",
+      "description": "Yoast Duplicate-Post style: one-click clone of any post/page as a draft.",
+      "download_url": "https://raw.githubusercontent.com/nexaCMS/nexacms-packages/main/packages/nexa-duplicate.zip",
+      "sha256": "cdda969a0e554a29bb0d894d63c3b8575937aea4da442f543f42ad18bdd32815"
+    },
+    {
+      "type": "plugin",
+      "slug": "nexa-error-pages",
+      "name": "Nexa Error Pages \u2014 Custom 404/403/500 & Offline",
+      "version": "1.0.0",
+      "author": "NexaCMS",
+      "description": "Create custom error pages (404, 403, 500) and an offline/maintenance mode from the admin. Used automatically for themes that do not ship their own error templates; themes with 404.php/error.php keep their designs.",
+      "download_url": "https://raw.githubusercontent.com/nexaCMS/nexacms-packages/main/packages/nexa-error-pages.zip",
+      "sha256": "0dc82a2877b8d2303bf4f167501bd4837a159f04b466eb706733e0b5cb55ada2"
+    },
+    {
+      "type": "plugin",
+      "slug": "nexa-fake-author",
+      "name": "Nexa Fake Author",
+      "version": "1.0.0",
+      "author": "NexaCMS",
+      "description": "Attribute posts and pages to a pen name that is NOT a real user account - for security (no credentials to attack, real usernames never exposed in bylines or RSS) and for guest contributors. The real author is kept privately for admins and member dashboards.",
+      "download_url": "https://raw.githubusercontent.com/nexaCMS/nexacms-packages/main/packages/nexa-fake-author.zip",
+      "sha256": "0aabda4d24d09fdb2cb39c9b0d90e099ee0041df9d59e1d5bfd9369e323f5045"
+    },
+    {
+      "type": "plugin",
+      "slug": "nexa-file-manager",
+      "name": "Nexa File Manager",
+      "version": "1.0.0",
+      "author": "NexaCMS",
+      "description": "Backend file manager for admins: browse the whole site, upload files, create folders, rename, edit text/code files, download and delete - with path-traversal protection and guarded system files (config.php, database stores).",
+      "download_url": "https://raw.githubusercontent.com/nexaCMS/nexacms-packages/main/packages/nexa-file-manager.zip",
+      "sha256": "01348443a68965cea2e83fccd9e571d952803b08951ec9f1664c11729fc3d439"
+    },
+    {
+      "type": "plugin",
+      "slug": "nexa-forms",
+      "name": "Nexa Forms - Form Builder",
+      "version": "1.1.0",
+      "author": "NexaCMS",
+      "description": "WPForms/Contact-Form-7 style builder: design forms, embed with [nexa_form id=\"1\"], read submissions in admin.",
+      "download_url": "https://raw.githubusercontent.com/nexaCMS/nexacms-packages/main/packages/nexa-forms.zip",
+      "sha256": "bf6f66ce2b2dc42066285bc7218bad90eb6d0749be50c4e85572341e029a0779"
+    },
+    {
+      "type": "plugin",
+      "slug": "nexa-gallery",
+      "name": "Nexa Gallery \u2014 Media Gallery & Lightbox",
+      "version": "1.1.0",
+      "author": "NexaCMS",
+      "description": "Upload/order gallery images and display a responsive grid lightbox with [gallery].",
+      "download_url": "https://raw.githubusercontent.com/nexaCMS/nexacms-packages/main/packages/nexa-gallery.zip",
+      "sha256": "826e16f374d65b84de8177d5bfba4e9ceea50aa8e0adac338b14dcd5ef1e621e"
+    },
+    {
+      "type": "plugin",
+      "slug": "nexa-image-optimizer",
+      "name": "Nexa Image Optimizer - Compress Images",
+      "version": "1.0.0",
+      "author": "NexaCMS",
+      "description": "Smush style: scan content/uploads, report oversized images and resize them with GD in one click.",
+      "download_url": "https://raw.githubusercontent.com/nexaCMS/nexacms-packages/main/packages/nexa-image-optimizer.zip",
+      "sha256": "dd36d669c2c0c2d7217841ffaaca5130e70c8628e94c3887fa2cdde4f8b35f37"
+    },
+    {
+      "type": "plugin",
+      "slug": "nexa-import-export",
+      "name": "Nexa Import / Export \u2014 Posts & Pages",
+      "version": "1.1.0",
+      "author": "NexaCMS",
+      "description": "Export posts and pages as portable JSON, or as a FULL ZIP including every referenced media file (images, audio, video, uploads) with automatic URL rewriting on import. Skip/overwrite/duplicate modes + dry run.",
+      "download_url": "https://raw.githubusercontent.com/nexaCMS/nexacms-packages/main/packages/nexa-import-export.zip",
+      "sha256": "73c7b39773c753dedf852d22bc5fe0b2f58a02ac6346fc0391ae583d0b5d33bc"
+    },
+    {
+      "type": "plugin",
+      "slug": "nexa-live-chat",
+      "name": "Nexa Live Chat \u2014 AI/FAQ First Contact, Agent Queue & Capacity",
+      "version": "1.3.0",
+      "author": "NexaCMS",
+      "description": "Persistent site-wide chat bubble. Direct JSON API endpoint, FAQ/systematic or AI first contact, bulk FAQ import (CSV/TSV/JSON/text with followups column), smart suggestions on both ends (visitor starter/follow-up chips from hand-picked, auto-related or AI follow-ups; agent suggested replies that insert for editing), automatic escalation to a human queue, per-agent concurrent-chat capacity, agent console with reply-to-take-over, floating admin alert bubble (badge/sound/desktop alerts), FAQs, history and settings.",
+      "download_url": "https://raw.githubusercontent.com/nexaCMS/nexacms-packages/main/packages/nexa-live-chat.zip",
+      "sha256": "8398076f1744ac25620dc24213addd8b75e4465154a62aec3c326945b331c0db"
+    },
+    {
+      "type": "plugin",
+      "slug": "nexa-menu-organizer",
+      "name": "Nexa Menu Organizer",
+      "version": "1.0.0",
+      "author": "NexaCMS",
+      "description": "Declutters the admin sidebar: groups every plugin's menu into categories (Content, Marketing & SEO, Commerce, Security & System, Utilities).",
+      "download_url": "https://raw.githubusercontent.com/nexaCMS/nexacms-packages/main/packages/nexa-menu-organizer.zip",
+      "sha256": "f3e137dd0a61afba58294851a3cfa4ce9561c5db61f24724275fdc35bdd8e7b0"
+    },
+    {
+      "type": "plugin",
+      "slug": "nexa-newsletter",
+      "name": "Nexa Newsletter \u2014 Subscribers & Export",
+      "version": "1.1.0",
+      "author": "NexaCMS",
+      "description": "Newsletter signup [newsletter_form] with token unsubscribe and Admin subscriber CSV export.",
+      "download_url": "https://raw.githubusercontent.com/nexaCMS/nexacms-packages/main/packages/nexa-newsletter.zip",
+      "sha256": "c337be1287ce04f6ac9326d3e3f860ad400f89581f389c557ed6c8017d06a9ab"
+    },
+    {
+      "type": "plugin",
+      "slug": "nexa-post-layouts",
+      "name": "Nexa Post Layouts \u2014 Listing Layouts & Ad Slots",
+      "version": "1.0.0",
+      "author": "NexaCMS",
+      "description": "Create named post-listing layouts: blocks before/after the list, ad or shortcode blocks inserted between posts (after every Nth post), columns per row and card styles. Assign layouts to the blog home, search results, or everywhere.",
+      "download_url": "https://raw.githubusercontent.com/nexaCMS/nexacms-packages/main/packages/nexa-post-layouts.zip",
+      "sha256": "572334c65cc1ef4717a9889be88406bb6ae43dab324c61c56d840663490dc823"
+    },
+    {
+      "type": "plugin",
+      "slug": "nexa-redirects",
+      "name": "Nexa Redirects - 301s & 404 Log",
+      "version": "1.2.0",
+      "author": "NexaCMS",
+      "description": "Redirection style: manage 301/302 redirects in pre and log 404s so you can fix broken links. Redirects can keep selected GET parameters (e.g. theme) across the jump. Rules are per-site: main-site redirects never reroute subsites, and local targets stay inside the current site.",
+      "download_url": "https://raw.githubusercontent.com/nexaCMS/nexacms-packages/main/packages/nexa-redirects.zip",
+      "sha256": "b26d82ef6b457fc32f426ad8e3a884db4d5f4de7d5e3a9978b6e8ff65a4c0f3c"
+    },
+    {
+      "type": "plugin",
+      "slug": "nexa-repo-hub",
+      "name": "Nexa Repository Hub \u2014 Serve Plugins & Themes",
+      "version": "1.0.0",
+      "author": "NexaCMS",
+      "description": "Turns this NexaCMS site into a package repository: other NexaCMS sites can add this site as a Repository and browse/install the plugins and themes you choose to publish. Serves a repo index JSON and on-the-fly package zips of your shared installed plugins/themes.",
+      "download_url": "https://raw.githubusercontent.com/nexaCMS/nexacms-packages/main/packages/nexa-repo-hub.zip",
+      "sha256": "d56d38e70ff22a9274a797b7d6d3ecc65b73fffe082211215c37fa87f9cb96f2"
+    },
+    {
+      "type": "plugin",
+      "slug": "nexa-security",
+      "name": "Nexa Security \u2014 Login Guard & Audit Log",
+      "version": "1.0.0",
+      "author": "NexaCMS",
+      "description": "Brute-force login rate limiting, IP blocking and an admin audit log.",
+      "download_url": "https://raw.githubusercontent.com/nexaCMS/nexacms-packages/main/packages/nexa-security.zip",
+      "sha256": "d0f4b32563ed560409d20fd1aa07a6ca6cd6ef149a851c88da35c1899c8d9317"
+    },
+    {
+      "type": "plugin",
+      "slug": "nexa-seo",
+      "name": "Nexa SEO \u2014 Meta, OpenGraph & Sitemap",
+      "version": "1.0.2",
+      "author": "NexaCMS",
+      "description": "SEO title/meta, canonical, OpenGraph/Twitter Cards and XML sitemap at /sitemap.xml (or ?sitemap=xml).",
+      "download_url": "https://raw.githubusercontent.com/nexaCMS/nexacms-packages/main/packages/nexa-seo.zip",
+      "sha256": "dc9b4178458e4ab83fbc8c02b4738117989d7ec8121aa0e5114923dbaa59a7fe"
+    },
+    {
+      "type": "plugin",
+      "slug": "nexa-seo-pro",
+      "name": "Nexa SEO Pro",
+      "version": "1.0.0",
+      "author": "NexaCMS",
+      "description": "Advanced per-page/post SEO: an SEO panel in the post editor (meta title/description with live counters, focus keyword, canonical URL, robots control, Open Graph and Twitter Card fields) that outputs precise tags and overrides the basic SEO plugin per post.",
+      "download_url": "https://raw.githubusercontent.com/nexaCMS/nexacms-packages/main/packages/nexa-seo-pro.zip",
+      "sha256": "3ffc396ebaa2a9544af6839ee9be494c40e3403323eb13b6cfafb9ce88f73c5f"
+    },
+    {
+      "type": "plugin",
+      "slug": "nexa-shop",
+      "name": "Nexa Shop \u2014 Store, Cart, Checkout & Orders",
+      "version": "2.1.0",
+      "author": "NexaCMS",
+      "description": "Full WooCommerce-style store: catalog with categories/search/sort, product pages, coupons, cart, shipping zones with flat/weight-based/free/pickup rates per country, checkout (COD, bank transfer, PayPal, Stripe), orders with stock control, customer My Account with downloads \u2014 plus a setup wizard that creates the store pages and collects your store details.",
+      "download_url": "https://raw.githubusercontent.com/nexaCMS/nexacms-packages/main/packages/nexa-shop.zip",
+      "sha256": "a727110e5989f7823abcdf0cb2c292de342d89c3ee0a67f58952b2d77f7327c2"
+    },
+    {
+      "type": "plugin",
+      "slug": "nexa-sitekit",
+      "name": "Nexa Site Kit - Google Tools",
+      "version": "1.0.0",
+      "author": "NexaCMS",
+      "description": "Site-Kit style: GA4 tag + Search Console verification in head, traffic snapshot in admin (pairs with Nexa Analytics).",
+      "download_url": "https://raw.githubusercontent.com/nexaCMS/nexacms-packages/main/packages/nexa-sitekit.zip",
+      "sha256": "516e0f52fb71c5d5dcbceb7baaeee091c957ed5e259b15963c6ee90a56612171"
+    },
+    {
+      "type": "plugin",
+      "slug": "nexa-slider",
+      "name": "Nexa Slider - Hero Slider",
+      "version": "1.1.0",
+      "author": "NexaCMS",
+      "description": "Slider-Revolution lite: [slider] rotating hero from your gallery images (or the theme multi_slider table).",
+      "download_url": "https://raw.githubusercontent.com/nexaCMS/nexacms-packages/main/packages/nexa-slider.zip",
+      "sha256": "4b7b0c0eddf51b28c16844d0e2d377096216a6e010135a9973a88d8d00c20b81"
+    },
+    {
+      "type": "plugin",
+      "slug": "nexa-smtp",
+      "name": "Nexa SMTP - Mail Settings & Log",
+      "version": "1.0.0",
+      "author": "NexaCMS",
+      "description": "WP-Mail-SMTP style: central from/SMTP settings, test email and a mail log table for other plugins.",
+      "download_url": "https://raw.githubusercontent.com/nexaCMS/nexacms-packages/main/packages/nexa-smtp.zip",
+      "sha256": "9f8687234e116e560506773751a55d0a55f61e5b342e54bf18ebd55afdbc7afa"
+    },
+    {
+      "type": "plugin",
+      "slug": "nexa-snippets",
+      "name": "Nexa Snippets - Header & Footer Code",
+      "version": "1.0.0",
+      "author": "NexaCMS",
+      "description": "WPCode style: safely insert analytics/custom code into head, body or footer without editing theme files.",
+      "download_url": "https://raw.githubusercontent.com/nexaCMS/nexacms-packages/main/packages/nexa-snippets.zip",
+      "sha256": "cec2e75f6129733a57c003f878ec134e56ffd9a08e5dc6345001360ee89639c1"
+    },
+    {
+      "type": "plugin",
+      "slug": "nexa-ssl",
+      "name": "Nexa SSL - HTTPS & Security Headers",
+      "version": "1.0.0",
+      "author": "NexaCMS",
+      "description": "Really-Simple-SSL style: force HTTPS (pre redirect) and send browser security headers on every response.",
+      "download_url": "https://raw.githubusercontent.com/nexaCMS/nexacms-packages/main/packages/nexa-ssl.zip",
+      "sha256": "1735923c587f9f7bcdb88bb170864285a2ca0534fa685d290ce363d21620015a"
+    },
+    {
+      "type": "plugin",
+      "slug": "nexa-user-dashboard",
+      "name": "Nexa User Dashboard",
+      "version": "1.4.0",
+      "author": "NexaCMS",
+      "description": "Front-end member dashboard ([user_dashboard] on a page, auto-created at /dashboard/): members log in, write and manage their own posts, edit their profile and change their password - without ever visiting the admin area.",
+      "download_url": "https://raw.githubusercontent.com/nexaCMS/nexacms-packages/main/packages/nexa-user-dashboard.zip",
+      "sha256": "15aad0868131eecfac20100f9b6a0660e951298812c46a0b94227673b7bb9be3"
+    },
+    {
+      "type": "theme",
+      "slug": "corporate",
+      "name": "Corporate Pro",
+      "version": "1.0.0",
+      "author": "NexaCMS",
+      "description": "Business theme - navy/teal, utility top strip + sticky main menu bar. Self-contained, no external assets.",
+      "download_url": "https://raw.githubusercontent.com/nexaCMS/nexacms-packages/main/packages/corporate.zip",
+      "sha256": "9b073d93ef7265491e2f10b20df2dab236fb1a68154d8649ed6db7949ffa1c91"
+    },
+    {
+      "type": "theme",
+      "slug": "darrs",
+      "name": "Darrs",
+      "version": "1.0.0",
+      "author": "NexaCMS",
+      "description": "",
+      "download_url": "https://raw.githubusercontent.com/nexaCMS/nexacms-packages/main/packages/darrs.zip",
+      "sha256": "c0a9a7e720ad33474da56f75e0beeaf9faa1f1ffca3ba650f0113306fb068cb0"
+    },
+    {
+      "type": "theme",
+      "slug": "flip-turn",
+      "name": "Flip Turn",
+      "version": "2.0.0",
+      "author": "NexaCMS",
+      "description": "Light portfolio-style theme (rebuilt self-contained in v1.5.0 - no external/template assets; own style.css, dynamic NexaCMS menu, posts and comments).",
+      "download_url": "https://raw.githubusercontent.com/nexaCMS/nexacms-packages/main/packages/flip-turn.zip",
+      "sha256": "e303747e707a5a459f7c8ea99edf04ddef8fb7e1c0f008378e7d0b8dbd51ce59"
+    },
+    {
+      "type": "theme",
+      "slug": "folio",
+      "name": "Folio Creative",
+      "version": "1.0.0",
+      "author": "NexaCMS",
+      "description": "Dark creative/portfolio theme - charcoal + amber, bold top menu bar, grid cards. Self-contained, no external assets.",
+      "download_url": "https://raw.githubusercontent.com/nexaCMS/nexacms-packages/main/packages/folio.zip",
+      "sha256": "24af57fd64c116cfe8f866d0bc54b9f152a8a70b688f6e76b910c3ff523135c1"
+    },
+    {
+      "type": "theme",
+      "slug": "multi",
+      "name": "Multi",
+      "version": "1.0.0",
+      "author": "NexaCMS",
+      "description": "",
+      "download_url": "https://raw.githubusercontent.com/nexaCMS/nexacms-packages/main/packages/multi.zip",
+      "sha256": "c53c775a87b7e48ff7b7e5176859ddf0518036cbc315711f9ac37ae947ff6946"
+    },
+    {
+      "type": "theme",
+      "slug": "nova",
+      "name": "Nova Blog",
+      "version": "1.0.0",
+      "author": "NexaCMS",
+      "description": "Clean modern magazine/blog theme - indigo accent, sticky top menu bar, card layout. Self-contained, no external assets.",
+      "download_url": "https://raw.githubusercontent.com/nexaCMS/nexacms-packages/main/packages/nova.zip",
+      "sha256": "fc7e9ac70277f38087ccc0dcd324222fc5a0f7a017c87c37b8c080db567bf51c"
+    },
+    {
+      "type": "theme",
+      "slug": "olivia",
+      "name": "Olivia",
+      "version": "1.0.0",
+      "author": "NexaCMS",
+      "description": "Advanced portfolio theme (built from the Olivia template): dark mode with device memory, reading progress, hero + project grid, two menu locations, per-theme settings. Self-contained, no CDN.",
+      "download_url": "https://raw.githubusercontent.com/nexaCMS/nexacms-packages/main/packages/olivia.zip",
+      "sha256": "46ad1076a3ef245fa772c5bf9b18a162a4d0a20dfacd7ff46a96e846e5832705"
+    }
+  ]
+}
