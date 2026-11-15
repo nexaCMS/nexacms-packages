@@ -33,6 +33,16 @@
     },
     {
       "type": "plugin",
+      "slug": "nexa-2fa",
+      "name": "Nexa Two-Factor Authentication",
+      "version": "0.5.0",
+      "author": "NexaCMS Community",
+      "description": "Authenticator/email 2FA, trusted devices, hosting diagnostics, testing pause and explicit local permission-compatibility exception. Core 1.29.1+ required.",
+      "download_url": "https://raw.githubusercontent.com/nexaCMS/nexacms-packages/main/packages/nexa-2fa.zip",
+      "sha256": "d8d653248ca670dd6c5c4c584aeadc2998e62143fbad3048345e3159e584c165"
+    },
+    {
+      "type": "plugin",
       "slug": "nexa-ai-agent",
       "name": "Nexa AI Agent - AI API Users",
       "version": "1.0.0",
@@ -70,6 +80,16 @@
       "description": "UpdraftPlus/All-in-One-Migration style: one-click zip backup of database + content into content/backup.",
       "download_url": "https://raw.githubusercontent.com/nexaCMS/nexacms-packages/main/packages/nexa-backup.zip",
       "sha256": "47f0b9261e29dd00927dd4e380a5849e39f24af0ea72d12c74cb0a267db2cdcd"
+    },
+    {
+      "type": "plugin",
+      "slug": "nexa-brevo",
+      "name": "Nexa Brevo Email",
+      "version": "1.0.0",
+      "author": "NexaCMS Community",
+      "description": "Admin-configurable Brevo SMTP/API sender with category controls and test email.",
+      "download_url": "https://raw.githubusercontent.com/nexaCMS/nexacms-packages/main/packages/nexa-brevo.zip",
+      "sha256": "1963bee8d82cefc7811e84535dc13ccfee540e6daf5d7ca95a4140b6f8d9736d"
     },
     {
       "type": "plugin",
