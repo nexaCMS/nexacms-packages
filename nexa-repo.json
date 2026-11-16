@@ -572,6 +572,17 @@
       "download_url": "https://raw.githubusercontent.com/nexaCMS/nexacms-packages/main/packages/market-studio.zip",
       "sha256": "9735d203ae61b13e99d607b4a9d964e1762d2fc52e9719aeceb0d0b1f2372c19",
       "thumbnail": "https://raw.githubusercontent.com/nexaCMS/nexacms-packages/main/thumbnails/market-studio.png"
+    },
+    {
+      "type": "plugin",
+      "slug": "nexa-health",
+      "name": "Nexa Health \u2014 Site Health & Resource Monitor",
+      "version": "1.0.0",
+      "author": "NexaCMS",
+      "description": "Read-only site health dashboard: 14 live checks (PHP/extensions, disk space, backup age & retention, permissions, HTTPS), resource usage (site/database/disk/memory), environment table and hourly snapshot history with trend sparklines. Admin \u2192 Site Health.",
+      "download_url": "https://raw.githubusercontent.com/nexaCMS/nexacms-packages/main/packages/nexa-health.zip",
+      "sha256": "6fc24808000f8f76dca86b519f19ac5387ad5603af46bbb26517cf61b9d1b1ab",
+      "thumbnail": "https://raw.githubusercontent.com/nexaCMS/nexacms-packages/main/thumbnails/nexa-health.png"
     }
   ]
 }
