@@ -495,6 +495,83 @@
       "download_url": "https://raw.githubusercontent.com/nexaCMS/nexacms-packages/main/packages/olivia.zip",
       "sha256": "46ad1076a3ef245fa772c5bf9b18a162a4d0a20dfacd7ff46a96e846e5832705",
       "thumbnail": "https://raw.githubusercontent.com/nexaCMS/nexacms-packages/main/thumbnails/olivia.png"
+    },
+    {
+      "type": "plugin",
+      "slug": "nexa-market-core",
+      "name": "Nexa Market \u2014 Marketplace Core",
+      "version": "1.0.0",
+      "author": "Nexa Market Suite",
+      "description": "Marketplace engine for NexaCMS: catalog, accounts, orders, commissions, watchlist, notifications and admin operations. SQLite-backed (PHP 8.1+, PDO SQLite). Install this FIRST \u2014 all other Nexa Market modules require it.",
+      "download_url": "https://raw.githubusercontent.com/nexaCMS/nexacms-packages/main/packages/nexa-market-core.zip",
+      "sha256": "a91ac9e93f3d13caa4a2b953efc43bc3dc1ceece4bfed0a77af212fc8e343ea1",
+      "thumbnail": "https://raw.githubusercontent.com/nexaCMS/nexacms-packages/main/thumbnails/nexa-market-core.png"
+    },
+    {
+      "type": "plugin",
+      "slug": "nexa-market-auctions",
+      "name": "Nexa Market \u2014 Auctions",
+      "version": "1.0.0",
+      "author": "Nexa Market Suite",
+      "description": "Ascending auctions: explicit-amount bids, reserves, increments, buy-now-before-first-bid and anti-sniping. Requires Nexa Market Core.",
+      "download_url": "https://raw.githubusercontent.com/nexaCMS/nexacms-packages/main/packages/nexa-market-auctions.zip",
+      "sha256": "3fb5da6fe7ce04fca7999151335c3656b55e885e37f25473bd5de6a632c64f0b",
+      "thumbnail": "https://raw.githubusercontent.com/nexaCMS/nexacms-packages/main/thumbnails/nexa-market-auctions.png"
+    },
+    {
+      "type": "plugin",
+      "slug": "nexa-market-sellers",
+      "name": "Nexa Market \u2014 Multi-seller",
+      "version": "1.0.0",
+      "author": "Nexa Market Suite",
+      "description": "Multi-seller module: seller applications, listing submissions, purchase actions and a seller workspace. Requires Nexa Market Core.",
+      "download_url": "https://raw.githubusercontent.com/nexaCMS/nexacms-packages/main/packages/nexa-market-sellers.zip",
+      "sha256": "d180b1190e9a7176698903456934f1e4139619f088c4c050e4f61b4742dc4b25",
+      "thumbnail": "https://raw.githubusercontent.com/nexaCMS/nexacms-packages/main/thumbnails/nexa-market-sellers.png"
+    },
+    {
+      "type": "plugin",
+      "slug": "nexa-market-tracking",
+      "name": "Nexa Market \u2014 Package Tracking",
+      "version": "1.0.0",
+      "author": "Nexa Market Suite",
+      "description": "Seller-only shipment updates with buyer-visible tracking event timelines. Requires Nexa Market Core.",
+      "download_url": "https://raw.githubusercontent.com/nexaCMS/nexacms-packages/main/packages/nexa-market-tracking.zip",
+      "sha256": "5cdd0add5f112ee6bb6002ecc0e98da251663956dc0f3a5ce0b90f356207522a",
+      "thumbnail": "https://raw.githubusercontent.com/nexaCMS/nexacms-packages/main/thumbnails/nexa-market-tracking.png"
+    },
+    {
+      "type": "plugin",
+      "slug": "nexa-market-setup",
+      "name": "Nexa Market \u2014 Setup Wizard",
+      "version": "1.0.0",
+      "author": "Nexa Market Suite",
+      "description": "First-run setup wizard: marketplace name, currency, fees, moderation, theme selection, page creation and safe demo-catalog import/removal. Requires Nexa Market Core.",
+      "download_url": "https://raw.githubusercontent.com/nexaCMS/nexacms-packages/main/packages/nexa-market-setup.zip",
+      "sha256": "ff396f0d9f0731b7e4d86dd57c516c1a6e4c52e227189fb896f57b4de2aad1d4",
+      "thumbnail": "https://raw.githubusercontent.com/nexaCMS/nexacms-packages/main/thumbnails/nexa-market-setup.png"
+    },
+    {
+      "type": "theme",
+      "slug": "market-atlas",
+      "name": "Market Atlas",
+      "version": "1.0.0",
+      "author": "Nexa Market Suite",
+      "description": "Warm, editorial, responsive marketplace theme for NexaCMS. Requires the Nexa Market Core plugin.",
+      "download_url": "https://raw.githubusercontent.com/nexaCMS/nexacms-packages/main/packages/market-atlas.zip",
+      "sha256": "cbfae992594ab7598ae26db4e5a4573afea8544d379a98b32ae9e784851ea42f",
+      "thumbnail": "https://raw.githubusercontent.com/nexaCMS/nexacms-packages/main/thumbnails/market-atlas.png"
+    },
+    {
+      "type": "theme",
+      "slug": "market-studio",
+      "name": "Market Studio",
+      "version": "1.0.0",
+      "author": "Nexa Market Suite",
+      "description": "Cool, minimal, responsive marketplace theme for NexaCMS. Requires the Nexa Market Core plugin.",
+      "download_url": "https://raw.githubusercontent.com/nexaCMS/nexacms-packages/main/packages/market-studio.zip",
+      "sha256": "9735d203ae61b13e99d607b4a9d964e1762d2fc52e9719aeceb0d0b1f2372c19",
+      "thumbnail": "https://raw.githubusercontent.com/nexaCMS/nexacms-packages/main/thumbnails/market-studio.png"
     }
   ]
 }
